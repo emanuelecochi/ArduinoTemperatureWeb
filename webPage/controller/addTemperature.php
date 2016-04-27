@@ -13,6 +13,4 @@ try {
 } catch (Exception $ex) {
 	print "Error";
 }
-
-
 ?>
