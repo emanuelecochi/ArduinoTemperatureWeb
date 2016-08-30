@@ -13,7 +13,7 @@ $temp_y = array ();
 $data_x = array ();
 try {
 	// recovery the temperature values
-	$query_select = $dbm->select_temperature ( $temperature );
+	$query_select = $dbm->select_temperature ();
 } catch ( Exception $ex ) {
 	print "Error";
 }
